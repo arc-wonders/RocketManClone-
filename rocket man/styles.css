@@ -1,0 +1,234 @@
+
+a.linksize{
+    font-size:20px;
+    display: block;
+}
+.links-container {
+    display: flex;
+    align-items: center;
+}
+.image-link{
+    display: block;
+    margin-right: 500px;
+    margin-left: 100px;
+}
+.normal-link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right:100px;
+     
+}
+
+
+/*LAUNCH IMAGE*/
+
+.launch_img{
+           
+    background-image: url("launch_image.jpeg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center ;
+    height: 600px;
+    width: 100%;
+    opacity:1 ;
+    background-color: rgba(0,0,0,1);
+    
+}
+.txt{
+    color: white;
+    text-align:center;
+    padding-top: 200px;
+    display: block;
+    font-size:50px; 
+    
+}
+.txt2{
+    color: white;
+    text-align:center;
+    padding-top: 5px;
+    padding-right: 170px;
+    padding-bottom:20px ;
+
+    display: block;
+    font-size:30px; 
+}
+.txt3{
+    color: black;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    margin-left: 355px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+    background-color: white;
+
+}
+
+
+/* first pic to twin pics*/
+.txt4{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.img1{
+      height: 350px;
+      margin-left: 225px;
+      margin-right: 100px;
+}
+.txt5{
+    display: flex;
+    font-size: 20px;
+    margin-left: 225px;
+    
+}
+.links{
+    text-decoration: solid;
+    color: blueviolet;
+}
+.borders{
+    display: inline;
+    border-width: 1px;
+    border-color: rgba(86, 84, 84,0.4);
+    border-style: solid;
+    padding-top:50px ;
+    padding-bottom:30px ;
+    padding-left: 69px;
+    padding-right: 68px;
+}
+.borders2{
+    display: inline;
+    border-width: 1px;
+    border-color: rgba(86, 84, 84,0.4);;
+    border-style: solid;
+    padding-top:50px ;
+    padding-bottom:50px ;
+    padding-left: 69px;
+    padding-right: 87px;
+}
+
+
+
+
+/*landing image to black box*/
+
+.landing_image{
+    margin-top:150px;
+    padding-left: 225px;
+  }
+  .landing_box{
+    display: grid;
+    color: white;
+    border-width: 1px;
+    border-color:black ;
+    background-color:black;
+    position: relative;
+    top: -150px;
+    width: 500px;
+    height: 250px;
+    margin-left: 800px;
+  }
+  .clean_image{
+    margin-left: 650px;
+  }
+  .clean_box{
+    display: grid;
+    color: white;
+    border-width: 1px;
+    border-color:black ;
+    background-color:black;
+    position: relative;
+    top: -150px;
+    width: 500px;
+    height: 250px;
+    margin-left: 400px;
+  }
+  .gas_image{
+    display: flex;
+     height: 550px;
+     margin-left: 225px;
+  }
+  .gas_box{
+    display: grid;
+    color: white;
+    border-width: 1px;
+    border-color:black ;
+    background-color:black;
+    position: relative;
+    top: -150px;
+    width: 550px;
+    height: 350px;
+    margin-left: 800px;
+  }
+  .contact{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    border-color: blueviolet;
+    text-align: center;
+    
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 70px;
+    margin-left: 650px;
+    background-color: blueviolet;
+
+  }
+  .txt6{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    margin:100px 350px 0px 350px ;
+
+  }
+  .purple{
+   
+    background-image: url("purple.webp");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: grid;
+    width: 100%;
+    height: 200px;
+    grid-template-columns: auto auto;
+    
+    border-style: solid;
+    border-color: black;
+    border: 1px;
+    
+  }
+  .contact_purple{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    padding-right:35px ;
+    padding-left:35px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border: 1px;
+    border-color: white;
+    position: relative;
+    left: -250px;
+    bottom: -70px;
+    
+  }
+
+  .blackbox{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 300px;
+    background-color: black;
+  }
+  
+  .subblackbox{
+    
+    color: white;
+    text-decoration: none;
+  }
